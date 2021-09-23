@@ -12,9 +12,9 @@ TagManager:
   - Water
   - UI
   - ground
-  - layer 1
-  - layer 2
-  - layer 3
+  - Walls
+  - groundObject
+  - 
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 1921780195
+    locked: 0
+  - name: GroundObjects
+    uniqueID: 522229541
+    locked: 0
+  - name: layer1
+    uniqueID: 1499465467
+    locked: 0
+  - name: layer2
+    uniqueID: 2950095125
+    locked: 0
+  - name: layer3
+    uniqueID: 3569209129
     locked: 0
