@@ -42,5 +42,9 @@ namespace Pathfinding {
 		{
 			return Vector2.Distance(transform.position, target.transform.position) < activateDistance;
 		}
-	}
+        private void OnDrawGizmosSelected()
+        {
+			Gizmos.DrawWireSphere(transform.position,activateDistance);
+        }
+    }
 }
